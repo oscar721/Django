@@ -1,0 +1,14 @@
+Auto
+
+id integer autoincrement not-null PK
+marca string not-null
+modelo integer not-null
+color string not-null
+clase string not-null
+numero_chasis string not-null
+numero_motor string not-null
+tipo string not-null
+placa string nullable
+kilometraje integer nullable
+cilindraje integer not-null
+tipo_combustible string not-null
