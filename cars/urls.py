@@ -19,7 +19,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('manager/', admin.site.urls),
-    path('autos/', include('automobile.urls')),
+    path('autos/', include('apps.automobile.urls')),
+    path('', include('apps.landingpage.urls')),
 ]
 
 
